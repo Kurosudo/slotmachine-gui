@@ -1,0 +1,15 @@
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.csprojResolveAssemblyReference.cache
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\App.g.cs
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI_MarkupCompile.cache
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI_MarkupCompile.lref
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\bin\Debug\SlotMachine-GUI.exe.config
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\bin\Debug\SlotMachine-GUI.exe
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\bin\Debug\SlotMachine-GUI.pdb
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\MainWindow.baml
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.g.resources
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine_GUI.Properties.Resources.resources
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.csproj.GenerateResource.Cache
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.exe
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.pdb
