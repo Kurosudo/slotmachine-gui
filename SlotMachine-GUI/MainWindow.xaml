@@ -6,19 +6,29 @@
         xmlns:local="clr-namespace:SlotMachine_GUI"
         mc:Ignorable="d"
         Title="Slot Machine" Height="350" Width="525" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="table.jpg"/>
+    </Window.Background>
     <Grid Margin="-1,2,1,-2">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="350*"/>
             <ColumnDefinition Width="167*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btn1" Content="PUSH" Margin="44,231,0,0" VerticalAlignment="Top" Click="Button_Click" Height="57" HorizontalAlignment="Left" Width="57"/>
-        <Label x:Name="Copyright" Content="Copyright © Kurosudo 2018 Licensed under GNU GPL v3" HorizontalAlignment="Left" Margin="296,288,0,0" VerticalAlignment="Top" FontSize="8" Grid.ColumnSpan="2"/>
-        <Label x:Name="lslot1" Content="ROLL" HorizontalAlignment="Left" Margin="119,93,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="lslot2" Content="ROLL" HorizontalAlignment="Left" Margin="237,93,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="lslot3" Content="ROLL" HorizontalAlignment="Left" Margin="347,93,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="20"/>
-        <Label x:Name="lpenizky" Content="Money: 1000 $" HorizontalAlignment="Left" Margin="148,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.284,0.437"/>
-        <Label x:Name="lwin" Content="" HorizontalAlignment="Left" Margin="237,150,0,0" VerticalAlignment="Top" Height="35" Width="56"/>
-        <Label Content="Beta release 1.0" Grid.Column="1" HorizontalAlignment="Left" Margin="64,10,0,0" VerticalAlignment="Top" ClipToBounds="True"/>
+        <Button x:Name="btn1" Content="" Margin="96,167,0,0" VerticalAlignment="Top" Click="Button_Click" Height="57" HorizontalAlignment="Left" Width="57" Grid.Column="1">
+            <Button.Background>
+                <ImageBrush ImageSource="push.PNG"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lslot1" Content="ROLL" HorizontalAlignment="Left" Margin="119,39,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lslot2" Content="ROLL" HorizontalAlignment="Left" Margin="237,39,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lslot3" Content="ROLL" HorizontalAlignment="Left" Margin="0,39,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.624,-0.488" Grid.Column="1"/>
+        <Label x:Name="lpenizky" Content="1000 $" HorizontalAlignment="Left" Margin="20,230,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.284,0.437" Grid.Column="1"/>
+        <Label x:Name="lwin" Content="" HorizontalAlignment="Left" Margin="97,230,0,0" VerticalAlignment="Top" Height="35" Width="56" Grid.Column="1"/>
+        <Label Content="Beta release 1.1" Grid.Column="1" HorizontalAlignment="Left" Margin="64,0,0,0" VerticalAlignment="Top" ClipToBounds="True"/>
+        <Button Content="License" HorizontalAlignment="Left" Height="21" Margin="10,290,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

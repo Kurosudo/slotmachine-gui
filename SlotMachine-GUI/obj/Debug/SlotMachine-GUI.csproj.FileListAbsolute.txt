@@ -13,3 +13,4 @@ C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachin
 C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.csproj.CoreCompileInputs.cache
 C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.exe
 C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI.pdb
+C:\Users\Owner\source\repos\SlotMachine-GUI\SlotMachine-GUI\obj\Debug\SlotMachine-GUI_Content.g.cs

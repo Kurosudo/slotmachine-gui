@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Media;
 
 namespace SlotMachine_GUI
 {
@@ -33,6 +34,9 @@ namespace SlotMachine_GUI
         
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            System.IO.Stream file_coin = Properties.Resources.coin;
+            System.Media.SoundPlayer ching = new System.Media.SoundPlayer(file_coin);
+            ching.Play();
             roll();
         }
 
@@ -61,12 +65,18 @@ namespace SlotMachine_GUI
                 genwon = rand.Next(1, maxValue: 20);
                 penizky = penizky - genwon;
             }
-            lpenizky.Content = $"Money: {penizky} $ ";
+            lpenizky.Content = $"{penizky} $ ";
             if (penizky <= 0)
             {
                 btn1.IsEnabled = false;
                 MessageBox.Show("You lose all your money!\n Hope you enjoyed game");
             }
+        }
+
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Game is under GNU GPLv3. Code/Design by Kurosudo. Music license you can find at github page file README.md https://github.com/kurosudo/slotmachine-gui");
         }
     }
 }
